@@ -992,7 +992,7 @@ game.Players.LocalPlayer.Character.ShoeL.TextureID = "rbxassetid://1028523033"
 game.Players.LocalPlayer.Character.ShoeR.TextureID = "rbxassetid://1029104847"
 game.Players.LocalPlayer.Character.Hair:Destroy()
 end
-if TextBox.Text == "itachi" then
+if TextBox.Text == "bluefit" then
      game.Players.LocalPlayer.Character.Shirt.ShirtTemplate = "rbxassetid://1160827659"
 game.Players.LocalPlayer.Character.Pants.PantsTemplate = "rbxassetid://1221012541"
 game.Players.LocalPlayer.Character.Hat2.Mesh.MeshId = "rbxassetid://433807755"
