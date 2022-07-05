@@ -1024,6 +1024,307 @@ game.Players.LocalPlayer.Character.ShoeL.TextureID = "rbxassetid://100370086"
 game.Players.LocalPlayer.Character.ShoeR.TextureID = "rbxassetid://100370086"
 game.Players.LocalPlayer.Character.Hair:Destroy()
 end
+if TextBox.Text == "autoscore" then 
+    local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local WestAuto2 = Instance.new("TextButton")
+local WestAuto1 = Instance.new("TextButton")
+local WestAuto3 = Instance.new("TextButton")
+local WestAuto32 = Instance.new("TextButton")
+local WestAuto42 = Instance.new("TextButton")
+local WestAuto4 = Instance.new("TextButton")
+local WestAuto5 = Instance.new("TextButton")
+local WestAuto52 = Instance.new("TextButton")
+local WestAuto6 = Instance.new("TextButton")
+local WestAuto62 = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
+Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Main.Position = UDim2.new(0.260622233, 0, 0.476455241, 0)
+Main.Size = UDim2.new(0, 519, 0, 259)
+
+TextLabel.Parent = Main
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+TextLabel.BorderColor3 = Color3.fromRGB(0, 255, 0)
+TextLabel.Size = UDim2.new(0, 519, 0, 50)
+TextLabel.Font = Enum.Font.SourceSansSemibold
+TextLabel.Text = "RB World 2 AutoScore By fading#7680"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 20.000
+
+WestAuto2.Name = "WestAuto2"
+WestAuto2.Parent = Main
+WestAuto2.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+WestAuto2.BorderColor3 = Color3.fromRGB(0, 255, 0)
+WestAuto2.Position = UDim2.new(0.575647771, 0, 0.285426915, 0)
+WestAuto2.Size = UDim2.new(0, 220, 0, 50)
+WestAuto2.Font = Enum.Font.SourceSansSemibold
+WestAuto2.Text = "West Court 2"
+WestAuto2.TextColor3 = Color3.fromRGB(0, 0, 0)
+WestAuto2.TextSize = 20.000
+
+WestAuto1.Name = "WestAuto1"
+WestAuto1.Parent = Main
+WestAuto1.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+WestAuto1.BorderColor3 = Color3.fromRGB(0, 255, 0)
+WestAuto1.Position = UDim2.new(-0.000460174488, 0, 0.286323935, 0)
+WestAuto1.Size = UDim2.new(0, 220, 0, 50)
+WestAuto1.Font = Enum.Font.SourceSansSemibold
+WestAuto1.Text = "West Court 1"
+WestAuto1.TextColor3 = Color3.fromRGB(0, 0, 0)
+WestAuto1.TextSize = 20.000
+
+WestAuto3.Name = "WestAuto3"
+WestAuto3.Parent = Main
+WestAuto3.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+WestAuto3.BorderColor3 = Color3.fromRGB(0, 255, 0)
+WestAuto3.Position = UDim2.new(0, 0, 0.521235526, 0)
+WestAuto3.Size = UDim2.new(0, 110, 0, 50)
+WestAuto3.Font = Enum.Font.SourceSansSemibold
+WestAuto3.Text = "West Court 3,1"
+WestAuto3.TextColor3 = Color3.fromRGB(0, 0, 0)
+WestAuto3.TextSize = 20.000
+
+WestAuto32.Name = "WestAuto32"
+WestAuto32.Parent = Main
+WestAuto32.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+WestAuto32.BorderColor3 = Color3.fromRGB(0, 255, 0)
+WestAuto32.Position = UDim2.new(0.211946055, 0, 0.521235526, 0)
+WestAuto32.Size = UDim2.new(0, 110, 0, 50)
+WestAuto32.Font = Enum.Font.SourceSansSemibold
+WestAuto32.Text = "West Court 3,2"
+WestAuto32.TextColor3 = Color3.fromRGB(0, 0, 0)
+WestAuto32.TextSize = 20.000
+
+WestAuto42.Name = "WestAuto42"
+WestAuto42.Parent = Main
+WestAuto42.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+WestAuto42.BorderColor3 = Color3.fromRGB(0, 255, 0)
+WestAuto42.Position = UDim2.new(0.78805393, 0, 0.521235526, 0)
+WestAuto42.Size = UDim2.new(0, 110, 0, 50)
+WestAuto42.Font = Enum.Font.SourceSansSemibold
+WestAuto42.Text = "West Court 4,2"
+WestAuto42.TextColor3 = Color3.fromRGB(0, 0, 0)
+WestAuto42.TextSize = 20.000
+
+WestAuto4.Name = "WestAuto4"
+WestAuto4.Parent = Main
+WestAuto4.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+WestAuto4.BorderColor3 = Color3.fromRGB(0, 255, 0)
+WestAuto4.Position = UDim2.new(0.575647712, 0, 0.521235526, 0)
+WestAuto4.Size = UDim2.new(0, 110, 0, 50)
+WestAuto4.Font = Enum.Font.SourceSansSemibold
+WestAuto4.Text = "West Court 4,1"
+WestAuto4.TextColor3 = Color3.fromRGB(0, 0, 0)
+WestAuto4.TextSize = 20.000
+
+WestAuto5.Name = "WestAuto5"
+WestAuto5.Parent = Main
+WestAuto5.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+WestAuto5.BorderColor3 = Color3.fromRGB(0, 255, 0)
+WestAuto5.Position = UDim2.new(0, 0, 0.749034762, 0)
+WestAuto5.Size = UDim2.new(0, 110, 0, 50)
+WestAuto5.Font = Enum.Font.SourceSansSemibold
+WestAuto5.Text = "West Court 5,1"
+WestAuto5.TextColor3 = Color3.fromRGB(0, 0, 0)
+WestAuto5.TextSize = 20.000
+
+WestAuto52.Name = "WestAuto52"
+WestAuto52.Parent = Main
+WestAuto52.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+WestAuto52.BorderColor3 = Color3.fromRGB(0, 255, 0)
+WestAuto52.Position = UDim2.new(0.211946055, 0, 0.749034762, 0)
+WestAuto52.Size = UDim2.new(0, 110, 0, 50)
+WestAuto52.Font = Enum.Font.SourceSansSemibold
+WestAuto52.Text = "West Court 5,2"
+WestAuto52.TextColor3 = Color3.fromRGB(0, 0, 0)
+WestAuto52.TextSize = 20.000
+
+WestAuto6.Name = "WestAuto6"
+WestAuto6.Parent = Main
+WestAuto6.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+WestAuto6.BorderColor3 = Color3.fromRGB(0, 255, 0)
+WestAuto6.Position = UDim2.new(0.574181139, 0, 0.749034762, 0)
+WestAuto6.Size = UDim2.new(0, 110, 0, 50)
+WestAuto6.Font = Enum.Font.SourceSansSemibold
+WestAuto6.Text = "West Court 6,1"
+WestAuto6.TextColor3 = Color3.fromRGB(0, 0, 0)
+WestAuto6.TextSize = 20.000
+
+WestAuto62.Name = "WestAuto62"
+WestAuto62.Parent = Main
+WestAuto62.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+WestAuto62.BorderColor3 = Color3.fromRGB(0, 255, 0)
+WestAuto62.Position = UDim2.new(0.78805393, 0, 0.749034762, 0)
+WestAuto62.Size = UDim2.new(0, 110, 0, 50)
+WestAuto62.Font = Enum.Font.SourceSansSemibold
+WestAuto62.Text = "West Court 6,2"
+WestAuto62.TextColor3 = Color3.fromRGB(0, 0, 0)
+WestAuto62.TextSize = 20.000
+
+-- Scripts:
+
+local function XOJUPM_fake_script() -- WestAuto2.LocalScript 
+	local script = Instance.new('LocalScript', WestAuto2)
+
+	WestAuto2.MouseButton1Down:connect(function()
+		local descendants = game.workspace:GetDescendants()
+	
+		for index, descendants in pairs(descendants) do
+			if descendants .Name == "Basketball" then
+				descendants.CFrame = CFrame.new(-160.197, 11.6944, 57.808)
+			end
+		end
+	end)
+end
+coroutine.wrap(XOJUPM_fake_script)()
+local function RAPNJLH_fake_script() -- WestAuto1.LocalScript 
+	local script = Instance.new('LocalScript', WestAuto1)
+
+	WestAuto1.MouseButton1Down:connect(function()
+		local descendants = game.workspace:GetDescendants()
+	
+		for index, descendants in pairs(descendants) do
+			if descendants .Name == "Basketball" then
+				descendants.CFrame = CFrame.new(-160.197, 11.6944, -113.192)
+			end
+		end
+	end)
+end
+coroutine.wrap(RAPNJLH_fake_script)()
+local function YECUU_fake_script() -- WestAuto3.LocalScript 
+	local script = Instance.new('LocalScript', WestAuto3)
+
+	WestAuto3.MouseButton1Down:connect(function()
+		local descendants = game.workspace:GetDescendants()
+	
+		for index, descendants in pairs(descendants) do
+			if descendants .Name == "Basketball" then
+				descendants.CFrame = CFrame.new(-45.8189, 12.1321, -25.7701)
+			end
+		end
+	
+	end)
+end
+coroutine.wrap(YECUU_fake_script)()
+local function UJTAL_fake_script() -- WestAuto32.LocalScript 
+	local script = Instance.new('LocalScript', WestAuto32)
+
+	WestAuto32.MouseButton1Down:connect(function()
+		local descendants = game.workspace:GetDescendants()
+	
+		for index, descendants in pairs(descendants) do
+			if descendants .Name == "Basketball" then
+				descendants.CFrame = CFrame.new(-45.8189, 12.1321, -126.17)
+			end
+		end
+	end)
+end
+coroutine.wrap(UJTAL_fake_script)()
+local function HUTHCJV_fake_script() -- WestAuto42.LocalScript 
+	local script = Instance.new('LocalScript', WestAuto42)
+
+	WestAuto42.MouseButton1Down:connect(function()
+		local descendants = game.workspace:GetDescendants()
+	
+		for index, descendants in pairs(descendants) do
+			if descendants .Name == "Basketball" then
+				descendants.CFrame = CFrame.new(-45.8189, 12.1321, 16.0299)
+			end
+		end
+	end)
+end
+coroutine.wrap(HUTHCJV_fake_script)()
+local function ULCLMTW_fake_script() -- WestAuto4.LocalScript 
+	local script = Instance.new('LocalScript', WestAuto4)
+
+	WestAuto4.MouseButton1Down:connect(function()
+		local descendants = game.workspace:GetDescendants()
+	
+		for index, descendants in pairs(descendants) do
+			if descendants .Name == "Basketball" then
+				descendants.CFrame = CFrame.new(-45.8189, 12.1321, 116.43)
+			end
+		end
+	end)
+end
+coroutine.wrap(ULCLMTW_fake_script)()
+local function KQUUBN_fake_script() -- WestAuto5.LocalScript 
+	local script = Instance.new('LocalScript', WestAuto5)
+
+	WestAuto5.MouseButton1Down:connect(function()
+		local descendants = game.workspace:GetDescendants()
+	
+		for index, descendants in pairs(descendants) do
+			if descendants .Name == "Basketball" then
+				descendants.CFrame = CFrame.new(70.9811, 12.1321, -25.7701)
+			end
+		end
+	end)
+end
+coroutine.wrap(KQUUBN_fake_script)()
+local function XIYWFTU_fake_script() -- WestAuto52.LocalScript 
+	local script = Instance.new('LocalScript', WestAuto52)
+
+	WestAuto52.MouseButton1Down:connect(function()
+		local descendants = game.workspace:GetDescendants()
+	
+		for index, descendants in pairs(descendants) do
+			if descendants .Name == "Basketball" then
+				descendants.CFrame = CFrame.new(70.9811, 12.1321, -126.17)
+			end
+		end
+	end)
+end
+coroutine.wrap(XIYWFTU_fake_script)()
+local function EGQARW_fake_script() -- WestAuto6.LocalScript 
+	local script = Instance.new('LocalScript', WestAuto6)
+
+	WestAuto6.MouseButton1Down:connect(function()
+		local descendants = game.workspace:GetDescendants()
+	
+		for index, descendants in pairs(descendants) do
+			if descendants .Name == "Basketball" then
+				descendants.CFrame = CFrame.new(70.9811, 12.1321, 116.43)
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(EGQARW_fake_script)()
+local function KCAHF_fake_script() -- WestAuto62.LocalScript 
+	local script = Instance.new('LocalScript', WestAuto62)
+
+	WestAuto62.MouseButton1Down:connect(function()
+		local descendants = game.workspace:GetDescendants()
+	
+		for index, descendants in pairs(descendants) do
+			if descendants .Name == "Basketball" then
+				descendants.CFrame = CFrame.new(70.9811, 12.1321, 16.0299)
+			end
+		end
+	end)
+end
+coroutine.wrap(KCAHF_fake_script)()
+local function WZOF_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	frame = script.Parent.Main --name of the main ui here
+	frame.Draggable = true
+	frame.Active = true
+	frame.Selectable = true
+end
+coroutine.wrap(WZOF_fake_script)()
+end
 end)
 
 local uis = game:GetService("UserInputService")
