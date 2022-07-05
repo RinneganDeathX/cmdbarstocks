@@ -763,6 +763,203 @@ local p = game:GetService("Players").LocalPlayer
 
 ts:Teleport(game.PlaceId, p)
 end
+
+if TextBox.Text == "autoankle" then 
+    local Storage = game:GetService('ReplicatedStorage');
+local Players = game:GetService("Players")
+local Player = Players.LocalPlayer
+while wait(0.4) do
+        local MyChar = Player.Character or Player.CharacterAdded:wait()
+        local RootPart = MyChar:WaitForChild 'HumanoidRootPart';
+ 
+        local postcf = RootPart.Position - Vector3.new(RootPart.Velocity.X / 6, 0, RootPart.Velocity.Z / 6)
+        local poscf = CFrame.new(postcf) + RootPart.CFrame.lookVector * 6
+        local herecf = Vector3.new(poscf.X, poscf.Y, poscf.Z)
+        for _, p in next, (Players:GetPlayers()) do
+              if p ~= Player and p.Character and p.Character:FindFirstChild("HumanoidRootPart") and (p.Character.HumanoidRootPart.Position - herecf).magnitude < 20 and not p.Character:FindFirstChild("ball.weld") then
+                  Storage:WaitForChild('gameplay').character.movedoff:FireServer(p, p.Character.HumanoidRootPart.Position, p.Character.HumanoidRootPart.Position)
+              end
+        end
+    end
+end
+
+if TextBox.Text == "dribble" then 
+    plr = game.Players.LocalPlayer
+hum = plr.Character.HumanoidRootPart
+mouse = plr:GetMouse()
+mouse.KeyDown:connect(function(key)
+if key == "l" then
+Player = "LocalPlayer"
+AnimationId = "696028900"
+local Anim = Instance.new("Animation")
+Anim.AnimationId = "rbxassetid://"..AnimationId
+local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+k:Play() --Play the animation
+k:AdjustSpeed(1.4)
+end
+if key == "v" then
+Player = "LocalPlayer"
+AnimationId = "695413209"
+local Anim = Instance.new("Animation")
+Anim.AnimationId = "rbxassetid://"..AnimationId
+local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+k:Play() --Play the animation
+k:AdjustSpeed(1.4)
+end
+if key == "c" then
+Player = "LocalPlayer"
+AnimationId = "1060181050"
+local Anim = Instance.new("Animation")
+Anim.AnimationId = "rbxassetid://"..AnimationId
+local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+k:Play() --Play the animation
+k:AdjustSpeed(1.4)
+end
+if key == "x" then
+Player = "LocalPlayer"
+AnimationId = "1060180407"
+local Anim = Instance.new("Animation")
+Anim.AnimationId = "rbxassetid://"..AnimationId
+local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+k:Play() --Play the animation
+k:AdjustSpeed(1.4)
+end
+if key == "z" then
+Player = "LocalPlayer"
+AnimationId = "695995381"
+local Anim = Instance.new("Animation")
+Anim.AnimationId = "rbxassetid://"..AnimationId
+local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+k:Play() --Play the animation
+k:AdjustSpeed(1.4)
+end
+
+if TextBox.Text == "boxing" then
+    plr = game.Players.LocalPlayer
+    hum = plr.Character.HumanoidRootPart
+    mouse = plr:GetMouse()
+    mouse.KeyDown:connect(function(key)
+    if key == "1" then
+    Player = "LocalPlayer"
+    AnimationId = "1041467040"
+    local Anim = Instance.new("Animation")
+    Anim.AnimationId = "rbxassetid://"..AnimationId
+    local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+    k:Play() --Play the animation
+    k:AdjustSpeed(1.4)
+    end
+    if key == "2" then
+    Player = "LocalPlayer"
+    AnimationId = "1041467753"
+    local Anim = Instance.new("Animation")
+    Anim.AnimationId = "rbxassetid://"..AnimationId
+    local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+    k:Play() --Play the animation
+    k:AdjustSpeed(1.4)
+    end
+    if key == "3" then
+    Player = "LocalPlayer"
+    AnimationId = "1041462100"
+    local Anim = Instance.new("Animation")
+    Anim.AnimationId = "rbxassetid://"..AnimationId
+    local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+    k:Play() --Play the animation
+    k:AdjustSpeed(0.7)
+    end
+    if key == "4" then
+    Player = "LocalPlayer"
+    AnimationId = "1041681504"
+    local Anim = Instance.new("Animation")
+    Anim.AnimationId = "rbxassetid://"..AnimationId
+    local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+    k:Play() --Play the animation
+    k:AdjustSpeed(1.4)
+    end
+    if key == "5" then
+    Player = "LocalPlayer"
+    AnimationId = "1041470826"
+    local Anim = Instance.new("Animation")
+    Anim.AnimationId = "rbxassetid://"..AnimationId
+    local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+    k:Play() --Play the animation
+    k:AdjustSpeed(1.4)
+    end
+    if key == "6" then
+    Player = "LocalPlayer"
+    AnimationId = "1041470182"
+    local Anim = Instance.new("Animation")
+    Anim.AnimationId = "rbxassetid://"..AnimationId
+    local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+    k:Play() --Play the animation
+    k:AdjustSpeed(1.4)
+    end
+    if key == "7" then
+    Player = "LocalPlayer"
+    AnimationId = "1041374433"
+    local Anim = Instance.new("Animation")
+    Anim.AnimationId = "rbxassetid://"..AnimationId
+    local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+    k:Play() --Play the animation
+    k:AdjustSpeed(1.4)
+    end
+    if key == "8" then
+    Player = "LocalPlayer"
+    AnimationId = "849611631"
+    local Anim = Instance.new("Animation")
+    Anim.AnimationId = "rbxassetid://"..AnimationId
+    local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+    k:Play() --Play the animation
+    k:AdjustSpeed(1)
+    end
+    end)
+end
+if TextBox.Text == "antiscreen" then 
+    if not __debug then
+   local Script = game:HttpGet('https://pastebin.com/raw/R5pzJpmv', true)
+   getgenv().__debug = loadstring(Script)()
+end
+-------------------------------
+ 
+local Players = game:GetService('Players');
+local Handle = function(p)
+   local CHandle = function(c) 
+       local screen = c:WaitForChild('values'):WaitForChild('screening')
+       __debug.set(screen, 'Value', function()
+           return false    
+       end)
+   end
+ 
+   CHandle(p.Character or p.CharacterAdded:wait())
+   p.CharacterAdded:Connect(CHandle)
+end
+ 
+for k, v in next, (Players:GetPlayers()) do
+   Handle(v)
+end
+Players.PlayerAdded:Connect(Handle)
+end
+if TextBox.Text == "antireach" then 
+    local mt = assert(getrawmetatable, 'getout')(game);
+local index, namecall, newindex = mt.index, mt.namecall, mt.newindex;
+local write = (make_writeable or setreadonly); xpcall(function() write(mt, false); end, function(err) warn(err) end);
+ 
+mt['namecall'] = function(self, ...)
+    local args = {...};
+    local method = args[#args];
+ 
+    if (method == 'FireServer') then
+        if (tostring(self) == 'value') then
+            local s = debug.getupvalues(2);
+            if s and (type(s.stealdebounce) ~= 'nil') then
+                debug.setupvalue(2, 'stealdebounce', function() end);
+            elseif s and (type(s.isstealing) ~= 'nil') then
+                debug.setupvalue(2, 'isstealing', function() end);
+            end;
+        end;
+    end;
+    return namecall(self, ...);
+end;
+end
 end)
 
 local uis = game:GetService("UserInputService")
@@ -776,9 +973,10 @@ else
 end
 end
 end)
+end
+end)
 
  game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "Welcome!";
         Text = "Script By: fading#7680";
     })
-
