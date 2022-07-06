@@ -1384,6 +1384,52 @@ if TextBox.Text == "jersey8" then
       game.Players.LocalPlayer.Character.Shirt.ShirtTemplate = "rbxassetid://1275282054"
 game.Players.LocalPlayer.Character.Pants.PantsTemplate = "rbxassetid://6281083949"
 end
+if TextBox.Text == "trashstat" then 
+    for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = 40;
+        v.postscorer = 30;
+        v.ballspeed = 74;
+        v.jump = 73;
+        v.steal = 30;
+        v.shotcontest = 30;
+        v["2pointer"] = 30;
+        v["3pointer"] = 30;
+        v.passing = 76;
+        v.layup = 30;
+        v.strength = 80;
+        v.dunk = 30;
+        v.speed = 85;
+        v.handles = 30;
+        v.movingshot = 30;
+        v.defense = 30;
+        v.stamina = 30;
+    end
+end
+end
+if TextBox.Text == "godstat" then 
+    for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = 345;
+        v.postscorer = 345;
+        v.ballspeed = 74;
+        v.jump = 73;
+        v.steal = 80;
+        v.shotcontest = 345;
+        v["2pointer"] = 345;
+        v["3pointer"] = 345;
+        v.passing = 76;
+        v.layup = 345;
+        v.strength = 80;
+        v.dunk = 345;
+        v.speed = 80;
+        v.handles = 345;
+        v.movingshot = 345;
+        v.defense = 345;
+        v.stamina = 345;
+    end
+end
+end
 end)
 
 local uis = game:GetService("UserInputService")
