@@ -1325,6 +1325,10 @@ local function WZOF_fake_script() -- ScreenGui.LocalScript
 end
 coroutine.wrap(WZOF_fake_script)()
 end
+if TextBox.Text == "pumpkinoutfit" then 
+    game.Players.LocalPlayer.Character.Shirt.ShirtTemplate = "rbxassetid://1078590154"
+    game.Players.LocalPlayer.Character.Pants.PantsTemplate = "rbxassetid://1078590154"
+end     
 end)
 
 local uis = game:GetService("UserInputService")
