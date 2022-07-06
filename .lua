@@ -322,6 +322,29 @@ if TextBox.Text == "packedman" then
 	game.Players.LocalPlayer.Character.Hair.Mesh.Scale = Vector3.new(1.4, 1.1, 1.2)
 	game.Players.LocalPlayer.Character.Hair.Mesh.Offset = Vector3.new(0, 0.4, 0)
 end
+if TextBox.Text == "spondgebob" then 
+    game.Players.LocalPlayer.Character.Shirt.ShirtTemplate = "rbxassetid://110921637"
+	game.Players.LocalPlayer.Character.Pants.PantsTemplate = "rbxassetid://3187407739"
+	game.Players.LocalPlayer.Character.Hat.Mesh.MeshId = "rbxassetid://0"
+	game.Players.LocalPlayer.Character.Hat.Mesh.TextureId = "rbxassetid://0"
+	game.Players.LocalPlayer.Character.Hat.Mesh.Offset = Vector3.new(0, 0.4, 0)
+	game.Players.LocalPlayer.Character.Hat.Mesh.Scale = Vector3.new(1.6, 1.12, 1.3)
+	game.Players.LocalPlayer.Character.Hat2.Mesh.MeshId = "rbxassetid://0"
+	game.Players.LocalPlayer.Character.Hat2.Mesh.TextureId = "rbxassetid://0"
+	game.Players.LocalPlayer.Character.Hat2.Mesh.Offset = Vector3.new(0, -2, 0)
+	game.Players.LocalPlayer.Character.Hat2.Mesh.Scale = Vector3.new(1, 1.04, 1)
+	game.Players.LocalPlayer.Character.ShoeL.TextureID = "rbxassetid://1029104847"
+	game.Players.LocalPlayer.Character.ShoeR.TextureID = "rbxassetid://1029104847"
+	game.Players.LocalPlayer.Character.Head.Transparency = 1 
+	game.Players.LocalPlayer.Character.Head.face.Transparency = 1 
+	game.Players.LocalPlayer.Character.Hair:Destroy()
+	game:service('Players').LocalPlayer.Character["Body Colors"].TorsoColor = BrickColor.new('New Yeller')
+	game:service('Players').LocalPlayer.Character["Body Colors"].RightArmColor = BrickColor.new('New Yeller')
+	game:service('Players').LocalPlayer.Character["Body Colors"].HeadColor = BrickColor.new('New Yeller')
+	game:service('Players').LocalPlayer.Character["Body Colors"].LeftLegColor = BrickColor.new('New Yeller')
+	game:service('Players').LocalPlayer.Character["Body Colors"].RightLegColor = BrickColor.new('New Yeller')
+	game:service('Players').LocalPlayer.Character["Body Colors"].LeftArmColor = BrickColor.new('New Yeller')
+end
 if TextBox.Text == "tp" then
     local plr = game.Players.LocalPlayer
  
