@@ -1329,6 +1329,38 @@ if TextBox.Text == "pumpkinoutfit" then
     game.Players.LocalPlayer.Character.Shirt.ShirtTemplate = "rbxassetid://1078590154"
     game.Players.LocalPlayer.Character.Pants.PantsTemplate = "rbxassetid://1078590154"
 end     
+if TextBox.Text == "jersey1" then 
+    game.Players.LocalPlayer.Character.Shirt.ShirtTemplate = "rbxassetid://1275282054"
+game.Players.LocalPlayer.Character.Pants.PantsTemplate = "rbxassetid://8082566504"
+end
+if TextBox.Text == "jersey2" then 
+    game.Players.LocalPlayer.Character.Shirt.ShirtTemplate = "rbxassetid://1275282054"
+game.Players.LocalPlayer.Character.Pants.PantsTemplate = "rbxassetid://2011007775"
+end
+if TextBox.Text == "jersey3" then 
+     game.Players.LocalPlayer.Character.Shirt.ShirtTemplate = "rbxassetid://1275282054"
+game.Players.LocalPlayer.Character.Pants.PantsTemplate = "rbxassetid://5173220107"
+end
+if TextBox.Text == "jersey4" then 
+     game.Players.LocalPlayer.Character.Shirt.ShirtTemplate = "rbxassetid://1275282054"
+game.Players.LocalPlayer.Character.Pants.PantsTemplate = "rbxassetid://7153516802"
+end
+if TextBox.Text == "jersey5" then 
+     game.Players.LocalPlayer.Character.Shirt.ShirtTemplate = "rbxassetid://1275282054"
+game.Players.LocalPlayer.Character.Pants.PantsTemplate = "rbxassetid://8655892886"
+end
+if TextBox.Text == "jersey6" then 
+     game.Players.LocalPlayer.Character.Shirt.ShirtTemplate = "rbxassetid://1275282054"
+game.Players.LocalPlayer.Character.Pants.PantsTemplate = "rbxassetid://6870874749"
+end
+if TextBox.Text == "jersey7" then 
+    game.Players.LocalPlayer.Character.Shirt.ShirtTemplate = "rbxassetid://1275282054"
+game.Players.LocalPlayer.Character.Pants.PantsTemplate = "rbxassetid://9665608448"
+end
+if TextBox.Text == "jersey8" then 
+      game.Players.LocalPlayer.Character.Shirt.ShirtTemplate = "rbxassetid://1275282054"
+game.Players.LocalPlayer.Character.Pants.PantsTemplate = "rbxassetid://6281083949"
+end
 end)
 
 local uis = game:GetService("UserInputService")
@@ -1341,4 +1373,4 @@ else
     OutFrame.Visible = false
 end
  end
-end)
+ end)
