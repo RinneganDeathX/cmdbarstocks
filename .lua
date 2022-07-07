@@ -1443,6 +1443,7 @@ mouse = plr:GetMouse()
 mouse.KeyDown:connect(function(key)
  
 if key == "4" then
+    	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Press 4 to toggle", Text = "4 After A GREEN!"})
     Player = "LocalPlayer"
 AnimationId = "966904248"
 local Anim = Instance.new("Animation")
@@ -1454,6 +1455,7 @@ end
 end)
 end
 if TextBox.Text == "fakepass" then 
+    	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "5 toggle", Text = "press 5 to toggle"})
      local plr = game.Players.LocalPlayer
  
 hum = plr.Character.HumanoidRootPart
