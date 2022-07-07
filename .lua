@@ -1431,6 +1431,50 @@ if TextBox.Text == "godstat" then
     end
 end
 end
+if TextBox.Text == "cookcelebration" then 
+     local plr = game.Players.LocalPlayer
+ 
+hum = plr.Character.HumanoidRootPart
+ 
+mouse = plr:GetMouse()
+ 
+ 
+ 
+mouse.KeyDown:connect(function(key)
+ 
+if key == "4" then
+    Player = "LocalPlayer"
+AnimationId = "966904248"
+local Anim = Instance.new("Animation")
+Anim.AnimationId = "rbxassetid://"..AnimationId
+local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+k:Play() --Play the animation
+k:AdjustSpeed(2) --Set '1' to any value you want to adjust the animation speed.
+end
+end)
+end
+if TextBox.Text == "fakepass" then 
+     local plr = game.Players.LocalPlayer
+ 
+hum = plr.Character.HumanoidRootPart
+ 
+mouse = plr:GetMouse()
+ 
+ 
+ 
+mouse.KeyDown:connect(function(key)
+ 
+if key == "5" then
+   Player = "LocalPlayer"
+AnimationId = "555030729"
+local Anim = Instance.new("Animation")
+Anim.AnimationId = "rbxassetid://"..AnimationId
+local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim)
+k:Play() --Play the animation
+k:AdjustSpeed(2) --Set '1' to any value you want to adjust the animation speed.
+end
+end)
+end
 end)
 
 local uis = game:GetService("UserInputService")
