@@ -1351,6 +1351,7 @@ end
 if TextBox.Text == "pumpkinoutfit" then 
     game.Players.LocalPlayer.Character.Shirt.ShirtTemplate = "rbxassetid://1078590154"
     game.Players.LocalPlayer.Character.Pants.PantsTemplate = "rbxassetid://1078590154"
+    game.Players.LocalPlayer.Character.Hat.Mesh.MeshId="rbxassetid://36869418"game.Players.LocalPlayer.Character.Hat.Mesh.TextureId="rbxassetid://36869406"game.Players.LocalPlayer.Character.Hat.Mesh.Offset=Vector3.new(-0.0,0.0,0.0)game.Players.LocalPlayer.Character.Hat.Mesh.Scale=Vector3.new(1,1.1,1.1)
 end     
 if TextBox.Text == "jersey1" then 
     game.Players.LocalPlayer.Character.Shirt.ShirtTemplate = "rbxassetid://1275282054"
