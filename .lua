@@ -1477,6 +1477,9 @@ k:AdjustSpeed(2) --Set '1' to any value you want to adjust the animation speed.
 end
 end)
 end
+if TextBox.Text == "credits" then 
+    	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Script By:", Text = "r1m7680"})
+end
 end)
 
 local uis = game:GetService("UserInputService")
@@ -1489,4 +1492,5 @@ else
     OutFrame.Visible = false
 end
  end
- end)
+end)
+	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Script By:", Text = "r1m7680"})
