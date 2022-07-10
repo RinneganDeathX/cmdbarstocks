@@ -1194,4 +1194,4 @@ else
 end
  end
 end)
-	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Script By:", Text = "r1m7680"})
+	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Script By:", Text = "r1m#0001"})
