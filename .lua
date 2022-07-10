@@ -1181,6 +1181,32 @@ k:AdjustSpeed(1) --Set '1' to any value you want to adjust the animation speed.
 end
 end)
 end
+if TextBox.Text == "autohop1" then
+    for x = 1, 7 do
+local A_1 = 1 ----- Change this to what court your on
+local A_2 = 1
+local Event = game:GetService("ReplicatedStorage")["join.court"]
+Event:InvokeServer(A_1, A_2)
+ 
+local A_1 = 1 ----- Change this to what court your on
+local A_2 = 2
+local Event = game:GetService("ReplicatedStorage")["join.court"]
+Event:InvokeServer(A_1, A_2)
+wait(2)
+end
+if TextBox.Text == "autohop2" then 
+   for x = 1, 7 do
+local A_1 = 2 ----- Change this to what court your on
+local A_2 = 1
+local Event = game:GetService("ReplicatedStorage")["join.court"]
+Event:InvokeServer(A_1, A_2)
+ 
+local A_1 = 2 ----- Change this to what court your on
+local A_2 = 2
+local Event = game:GetService("ReplicatedStorage")["join.court"]
+Event:InvokeServer(A_1, A_2)
+wait(2)
+end
 end)
 
 local uis = game:GetService("UserInputService")
