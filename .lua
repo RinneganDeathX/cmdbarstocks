@@ -1043,6 +1043,9 @@ end
 if TextBox.Text == "clothing" then
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/RinneganDeathX/clothingrbhub/main/.lua"), true))()
 end
+if TextBox.Text == "autoscore" then 
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/RinneganDeathX/rimautoscore/main/.lua"), true))()
+end
 end)
 
 local uis = game:GetService("UserInputService")
