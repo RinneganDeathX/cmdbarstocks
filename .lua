@@ -988,7 +988,7 @@ end
 end)
 end
 if TextBox.Text == "credits" then 
-    	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Script By:", Text = "Scripto#0001"})
+    	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Script By:", Text = "Krnl#0001"})
 end
 if TextBox.Text == "fallcelebration" then 
     local plr = game.Players.LocalPlayer
@@ -1059,4 +1059,4 @@ else
 end
  end
 end)
-	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Script By:", Text = "Scripto#0001"})
+	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Script By:", Text = "Krnl#0001"})
